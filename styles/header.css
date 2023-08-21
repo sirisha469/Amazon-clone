@@ -1,10 +1,25 @@
 
 .header{
-  height: 70px;
+  height: 60px;
   background-color: rgb(35,31,32);
+}
+
+.left-section{
+  display: flex;
+  width: 200px;
+  border: 1px solid white;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .amazon-logo{
   height: 50px;
-  width: 70px;
+  width: 100px;
+  padding-left: 10px;
+
+}
+
+.location{
+  color: white;
 }
