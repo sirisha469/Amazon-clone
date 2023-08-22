@@ -225,18 +225,42 @@
 
 .orders{
   color: white;
-  background-color: red;
   padding: 8px 10px;
 }
 
-.orders .return{
+.orders:hover{
+  color: white;
+  padding: 8px 10px;
+  border: 1px solid white;
+}
+
+.return{
   font-size: 12px;
+}
+
+.order{
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .cart{
   color: white;
- background-color: red;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 8px;
 }
+
+.cart:hover{
+  color: white;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 8px;
+  border: 1px solid white;
+}
+
 .fa-cart-shopping{
   color: white;
+  font-size: 25px;
 }
