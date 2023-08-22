@@ -6,20 +6,56 @@
 
 .left-section{
   display: flex;
-  width: 200px;
-  border: 1px solid white;
+  width: 185px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;   
+}
 
+.logo{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100px;
+  margin-left: 3px;
 }
 
 .amazon-logo{
   height: 50px;
   width: 100px;
-  padding-left: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
 
+.amazon-logo:hover{
+  height: 50px;
+  width: 100px;
+  border: 1px solid white;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 .location{
   color: white;
+  padding: 10px 5px;
+}
+
+.location:hover{
+  color: white;
+  border: 1px solid white;
+  padding: 10px 5px;
+  border-radius:2px ;
+  cursor: pointer;
+}
+
+.deliver{
+  font-size: 12px;
+  color: rgb(194, 194, 194);
+  padding-left: 15px;
+}
+
+.country{
+  font-size: 14px;
+  font-weight: bold;
 }
