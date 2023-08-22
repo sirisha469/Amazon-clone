@@ -1,0 +1,45 @@
+
+.nav-bar{
+  height: 40px;
+  background-color: rgb(35,47,62);
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  margin-left: 13px;
+  font-weight: bold;
+  padding: 10px 10px;
+  font-size: 13px;
+}
+
+.menu:hover{
+  display: flex;
+  align-items: center;
+  margin-left: 13px;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 10px;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.fa-bars{
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.menu-items{
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+.menu-items:hover{
+  font-size: 14px;
+  padding: 10px 10px;
+  border: 1px solid white;
+  border-radius: 2px;
+}
