@@ -3,3 +3,22 @@
   width: 100%;
   object-fit: cover;
 }
+
+.advert .left-arrow{
+  position: absolute;
+  top: 200px;
+}
+
+.advert button{
+  width: 50px;
+  border: none;
+  height: 50px;
+  background: transparent;
+  
+}
+
+.advert .right-arrow{
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
