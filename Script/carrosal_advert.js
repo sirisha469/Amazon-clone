@@ -12,7 +12,7 @@ let count = 0;
 
 img.src = imgArray[0];
 
-const rightButton = document.querySelector(".fa-greater-than");
+const rightButton = document.querySelector(".right-arrow");
 
 rightButton.addEventListener("click", () => {
   count = count + 1;
@@ -24,7 +24,7 @@ rightButton.addEventListener("click", () => {
   img.src = imgArray[count];
 });
 
-const leftButton = document.querySelector(".fa-less-than");
+const leftButton = document.querySelector(".left-arrow");
 
 leftButton.addEventListener("click", () => {
   count = count - 1;
@@ -34,4 +34,8 @@ leftButton.addEventListener("click", () => {
   }
 
   img.src = imgArray[count];
+});
+
+rightButton.addEventListener("click", () => {
+  rightButton.style.border=visible;
 });
