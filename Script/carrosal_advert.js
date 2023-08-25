@@ -37,5 +37,5 @@ leftButton.addEventListener("click", () => {
 });
 
 rightButton.addEventListener("click", () => {
-  rightButton.style.border=visible;
+  rightButton.style.opacity=1;
 });

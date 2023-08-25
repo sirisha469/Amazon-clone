@@ -33,7 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: none;
+  /* border: hidden; */
 }
 
 .advert .right-arrow{
@@ -47,5 +47,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: hidden;
+  /* border: hidden; */
 }
+
+/* .advert .color{
+  color:#007185;
+} */
