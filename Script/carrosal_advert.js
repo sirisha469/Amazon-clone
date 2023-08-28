@@ -36,6 +36,20 @@ leftButton.addEventListener("click", () => {
   img.src = imgArray[count];
 });
 
-rightButton.addEventListener("click", () => {
+// rightButton.addEventListener("click", () => {
+//   rightButton.style.opacity=1;
+// });
+
+
+// document.querySelector(".less-than").addEventListener("click", (event) =>{
+//   event.stopPropagation();
+// });
+
+rightButton.addEventListener("click", (event) => {
   rightButton.style.opacity=1;
+  event.stopPropagation();
+});
+  
+document.querySelector(".greater-than").addEventListener("click", (event) =>{
+  event.stopPropagation();
 });

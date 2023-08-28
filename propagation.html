@@ -11,6 +11,18 @@
 
       .inner{
         background-color: green;
+        height: 150px;
+        width: 150px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      .innerA{
+        background-color: pink;
         height: 100px;
         width: 100px;
         margin: auto;
@@ -24,7 +36,9 @@
   </head>
   <body>
     <div class="outer">
-      <div class="inner"></div>
+      <div class="inner">
+        <div class="innerA"></div>
+      </div>
     </div>
 
     <script>
@@ -42,6 +56,15 @@
       green.addEventListener('click', (event) =>{
         count2 = count2 +1;
         console.log("c2:"+count2);
+        event.stopPropagation();
+      }
+      );
+
+      const pink = document.querySelector(".innerA");
+      var count3 = 0;
+      pink.addEventListener('click', (event) =>{
+        count3 = count3 +1;
+        console.log("c3:"+count3);
         event.stopPropagation();
       }
       );
