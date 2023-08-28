@@ -36,20 +36,25 @@ leftButton.addEventListener("click", () => {
   img.src = imgArray[count];
 });
 
-// rightButton.addEventListener("click", () => {
-//   rightButton.style.opacity=1;
-// });
 
 
-// document.querySelector(".less-than").addEventListener("click", (event) =>{
-//   event.stopPropagation();
-// });
+const body = document.querySelector(".body");
+body.addEventListener("click", ()=>{
+  rightButton.style.visibility='hidden';
+  leftButton.style.visibility='hidden';
+});
+
+
 
 rightButton.addEventListener("click", (event) => {
-  rightButton.style.opacity=1;
+  rightButton.style.visibility='visible';
+  leftButton.style.visibility='hidden';
   event.stopPropagation();
 });
   
-document.querySelector(".greater-than").addEventListener("click", (event) =>{
+leftButton.addEventListener("click", (event) => {
+  leftButton.style.visibility='visible';
+  rightButton.style.visibility='hidden';
   event.stopPropagation();
 });
+  
