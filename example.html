@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .outer{
+        background-color: red;
+        height: 250px;
+        width: 250px;
+        position: relative;
+      }
+
+      .inner{
+        background-color: green;
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner"></div>
+    </div>
+
+    <script>
+
+      const red = document.querySelector(".outer");
+      var count1 = 0;
+      red.addEventListener('click', () =>{
+        count1 = count1 +1;
+        console.log("c1:"+count1);
+      }
+      );
+
+      const green = document.querySelector(".inner");
+      var count2 = 0;
+      green.addEventListener('click', (event) =>{
+        count2 = count2 +1;
+        console.log("c2:"+count2);
+        event.stopPropagation();
+      }
+      );
+
+
+    </script>
+  </body>
+</html>
