@@ -15,6 +15,7 @@
   border: none;
   background-color: transparent;
   visibility: visible;
+  cursor: pointer;
 }
 
 .fa-greater-than{
@@ -24,6 +25,7 @@
   border: none;
   background-color: transparent;
   visibility: visible;
+  cursor: pointer;
 }
 
 .advert button{
@@ -38,6 +40,7 @@
   border: 3px solid #007185;
   border-radius: 5px;
   visibility: hidden;
+  cursor: pointer;
 }
 
 .advert .right-arrow{
@@ -48,8 +51,60 @@
   width: 60px;
   border: 3px solid #007185;
   border-radius: 5px;
-  /* opacity: 0; */
   visibility: hidden;
+  cursor: pointer;
 } 
 
+/* on carrosal */
+.on-carrosal{
+  /* border: 1px solid blue; */
+  width:96%;
+  height: 400px;
+  position: absolute;
+  top: 205px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:30px;
+}
 
+.carrosal-divs{
+  border: 1px solid blue;
+  height: 400px;
+  width: 285px;
+  background-color: white;
+}
+
+.sign-in-securely{
+  border: 1px solid red;
+  height: 150px;
+  width: 285px;
+  background-color: white;
+}
+
+.shipping{
+  border: 1px solid red;
+  height: 230px;
+  width: 285px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.gaming{
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-row-gap: 60px;
+  grid-column-gap: 50px;
+}
+
+.head-set{
+  height: 120px;
+  width: 110px;
+  margin-left: 10px;
+}
+
+.gaming img{
+  height: 120px;
+  width: 110px;
+}

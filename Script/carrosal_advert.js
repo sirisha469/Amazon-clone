@@ -36,15 +36,12 @@ leftButton.addEventListener("click", () => {
   img.src = imgArray[count];
 });
 
-
-
+// visibility of the advertisement of the carrosal effect
 const body = document.querySelector(".body");
 body.addEventListener("click", ()=>{
   rightButton.style.visibility='hidden';
   leftButton.style.visibility='hidden';
 });
-
-
 
 rightButton.addEventListener("click", (event) => {
   rightButton.style.visibility='visible';

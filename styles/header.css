@@ -27,6 +27,7 @@
   width: 150px;
   padding-left: 8px;
   padding-right: 8px;
+  background: transparent;
 }
 
 .amazon-logo:hover{
