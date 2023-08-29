@@ -1,5 +1,6 @@
 .advert{
   position: relative;
+  min-width: 1280px;
 }
 
 .advert img{
@@ -59,6 +60,7 @@
 .on-carrosal{
   /* border: 1px solid blue; */
   width:96%;
+  min-width: 1240px;
   height: 400px;
   position: absolute;
   top: 205px;
