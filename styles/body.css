@@ -70,41 +70,140 @@
 }
 
 .carrosal-divs{
-  border: 1px solid blue;
   height: 400px;
   width: 285px;
   background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.sign-in-securely{
-  border: 1px solid red;
-  height: 150px;
-  width: 285px;
-  background-color: white;
-}
-
-.shipping{
-  border: 1px solid red;
-  height: 230px;
-  width: 285px;
+.title{
+  padding: 0;
+  margin: 0;
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 10px;
   margin-top: 20px;
-  background-color: white;
+  margin-bottom: 10px;
 }
 
 .gaming{
   display: grid;
   grid-template-columns: 100px 100px;
-  grid-row-gap: 60px;
+  grid-row-gap: 40px;
   grid-column-gap: 50px;
+  cursor: pointer;
 }
 
-.head-set{
+.gaming-items{
   height: 120px;
   width: 110px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .gaming img{
   height: 120px;
   width: 110px;
+}
+
+.gaming-items p{
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.see-more{
+  margin-top: 35px;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+.see-more:hover a{
+  color: orange;
+  text-decoration: underline;
+}
+
+.see-more a{
+  color: #007185;
+  text-decoration: none;
+}
+
+.electronics{
+  width: 250px;
+  height: 290px;
+  margin-left: 18px;
+}
+
+.electronics:hover a{
+  color: orange;
+  cursor: pointer;
+}
+
+.electronics img{
+  width: 250px;
+  height: 290px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.see-more-electronics{
+  font-size: 12px;
+  margin-top: 20px;
+  color: #007185;
+}
+
+.see-more-electronics a{
+  color: #007185;
+  text-decoration: none;
+}
+
+.carrosal-divs-special{
+  height: 400px;
+  width: 285px;
+  position: relative;
+}
+
+.sign-in-securely{
+  height: 150px;
+  width: 285px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.shipping{
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  top: 150px;
+  margin-top:20px ;
+}
+
+.shipping img{
+  height: 230px;
+  position: absolute;
+  top: 0px;
+  width: 285px;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.sign-in-securely p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  line-height: 28px;
+}
+
+.sign-in-button{
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(255,216,20);
+}
+
+.sign-in-button button{
+  padding: auto;
+  font-size: 12px;
 }
