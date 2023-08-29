@@ -67,9 +67,12 @@
   justify-content: space-between;
   align-items: center;
   margin-left:30px;
+  /* flex-wrap: wrap; */
 }
 
 .carrosal-divs{
+  /* min-height: 400px; */
+  /* min-width: 285px; */
   height: 400px;
   width: 285px;
   background-color: white;
@@ -81,7 +84,7 @@
   margin: 0;
   font-size: 21px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -101,7 +104,7 @@
 }
 
 .gaming img{
-  height: 120px;
+  height: 110px;
   width: 110px;
 }
 
@@ -140,7 +143,7 @@
 
 .electronics img{
   width: 250px;
-  height: 290px;
+  height: 100%;
   object-fit: cover;
   cursor: pointer;
 }
@@ -201,9 +204,38 @@
   margin-left: 20px;
   margin-right: 20px;
   background-color: rgb(255,216,20);
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
 }
 
-.sign-in-button button{
-  padding: auto;
-  font-size: 12px;
+.on-carrosal-bottom{
+  width:96%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:30px;
+  margin-top: 130px;
+}
+
+.kitchen{
+  width: 250px;
+  height: 290px;
+  margin-left: 18px;
+}
+
+.kitchen:hover a{
+  color: orange;
+  cursor: pointer;
+}
+
+.kitchen img{
+  width: 250px;
+  height: 91%;
+  object-fit: cover;
+  cursor: pointer;
 }
