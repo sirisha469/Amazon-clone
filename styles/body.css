@@ -1,6 +1,6 @@
 .advert{
   position: relative;
-  min-width: 1280px;
+  min-width: 1240px;
 }
 
 .advert img{
@@ -59,8 +59,8 @@
 /* on carrosal */
 .on-carrosal{
   /* border: 1px solid blue; */
-  width:96%;
-  min-width: 1240px;
+  width: 1200px;
+  /* min-width: 1240px; */
   height: 400px;
   position: absolute;
   top: 205px;
@@ -76,10 +76,11 @@
   /* min-height: 400px; */
   /* min-width: 285px; */
   height: 400px;
-  width: 285px;
+  width: 280px;
   background-color: white;
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
+
 
 .title{
   padding: 0;
@@ -214,7 +215,8 @@
 }
 
 .on-carrosal-bottom{
-  width:96%;
+  width:1200px;
+  /* min-width: 1240px; */
   height: 400px;
   display: flex;
   flex-direction: row;
@@ -241,3 +243,11 @@
   object-fit: cover;
   cursor: pointer;
 }
+
+/* exciting deals */
+
+.exciting-delas{
+  width: 96%;
+  border: 1px solid red;
+} 
+

@@ -1,7 +1,7 @@
 
 .header{
-  width: 100%;
-  min-width: 1280px;
+  width: 1240;
+  min-width: 1240px;
   height: 60px;
   background-color: rgb(35,31,32);
   display: flex;
@@ -12,7 +12,8 @@
   display: flex;
   width: 210px;
   align-items: center;
-  justify-content: space-between;   
+  justify-content: space-between;  
+  flex-shrink: 0; 
 }
 
 .logo{
@@ -147,11 +148,13 @@
 }
 
 .right-section{
-  width: 400px;
+  /* background-color: red; */
+  width: 385px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 20px;
+  margin-left: 10px;
+  flex-shrink: 0;
 }
 
 .flag{
