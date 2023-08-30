@@ -246,8 +246,47 @@
 
 /* exciting deals */
 
-.exciting-delas{
-  width: 96%;
+.exciting-deals{
+  width: 1200px;
+  height: 370px;
   border: 1px solid red;
+  margin-left: 30px;
+  margin-top: 20px;
 } 
+
+.exciting-deals span{
+  font-size: 14px;
+  font-weight: 0;
+  color: #007185;
+  margin-left: 10px;
+}
+
+.exciting-deals span:hover{
+  color: orange;
+  cursor: pointer;
+}
+
+.exciting-deals .title{
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.deals{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.deals .items{
+  width: 230px;
+  height: 200px;
+  background-color: red;
+}
+
+.items img{
+  width: 124px;
+  height: 183px;
+  margin: 8px 50px 8px 50px;
+}
+
 
