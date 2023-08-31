@@ -271,22 +271,54 @@
   font-weight: bold;
 }
 
-.deals{
+.exciting-deals .deals{
+  /* width: 1173px; */
   display: flex;
   justify-content: space-between;
-
+  /* background-color: blue; */
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.deals .items{
+.items{
   width: 230px;
   height: 200px;
-  background-color: red;
+  background-color: rgb(222, 222, 222);
 }
 
-.items img{
+.item-book img{
   width: 124px;
   height: 183px;
   margin: 8px 50px 8px 50px;
 }
 
+.item-toddler-toy img{
+  margin: 25px 8px;
+  width: 215px;
+  height: 148px;
+  background-color: none;
+}
 
+.item-coffee-filter img{
+  margin: 8px 17px;
+  height: 183px;
+  width: 205px;
+}
+
+.item-portable-bluetooth img{
+  height: 183px;
+  width: 164px;
+  margin: 8px 37px;
+}
+
+.item-adobe-photoshop img{
+  height: 183px;
+  width: 145px;
+  margin: 8px 47px;
+}
+
+.discount{
+  background-color: maroon;
+  color: white;
+  font-size: 12px;
+}

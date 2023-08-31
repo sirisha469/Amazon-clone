@@ -208,6 +208,7 @@
   color: white;
   padding-left: 10px;
   padding-right: 10px;
+  position: relative;
 }
 
 .account:hover{
@@ -219,6 +220,57 @@
   color: white;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.account .tooltip{
+  position: absolute;
+  bottom: -400px;
+  left: -230px;
+  background-color: white;
+  height: 400px;
+  width: 500px;
+  z-index: 5000;
+  /* opacity: 0; */
+  /* display: flex;
+  justify-content: center; */
+}
+
+.account .tooltip .sign-in{
+  display: flex;
+  justify-content: center;
+}
+
+.account .tooltip .sign-in button{
+  background-color: rgb(255,216,20);
+  border: none;
+  width: 200px;
+  height: 30px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.sign-in p{
+  color: black;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in p span{
+  color: #007185;
+  text-align: center;
+}
+
+.sign-in p span:hover{
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+line{
+  background-color: red;
 }
 
 .hello{
