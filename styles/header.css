@@ -177,6 +177,7 @@
   padding-top: 10px;
   padding-left: 8px;
   padding-right: 8px;
+  cursor: pointer;
 }
 
 .flag-img{
@@ -220,34 +221,45 @@
   color: white;
   padding-left: 10px;
   padding-right: 10px;
+  cursor: pointer;
 }
 
 .account .tooltip{
+  margin: 0;
+  padding: 0;
   position: absolute;
-  bottom: -400px;
-  left: -230px;
+  bottom: -360px;
+  left: -200px;
   background-color: white;
-  height: 400px;
-  width: 500px;
+  height: 360px;
+  width: 450px;
   z-index: 5000;
-  /* opacity: 0; */
-  /* display: flex;
-  justify-content: center; */
+  display: none;
+  pointer-events: none;
 }
 
 .account .tooltip .sign-in{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .account .tooltip .sign-in button{
   background-color: rgb(255,216,20);
   border: none;
   width: 200px;
-  height: 30px;
+  height: 28px;
   margin: auto;
   margin-top: 10px;
   border-radius: 6px;
+}
+
+.sign-in button:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+  cursor: pointer;
 }
 
 .sign-in p{
@@ -255,6 +267,9 @@
   font-size: 12px;
   display: flex;
   justify-content: center;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .sign-in p span{
@@ -269,8 +284,65 @@
 }
 
 
-line{
-  background-color: red;
+.horizontal-line{
+  width: 400px;
+  border-top: 1px solid rgba(215, 215, 215, 0.5);
+  position:absolute;
+  margin-left: 10px;
+}
+
+.vertical {
+  border-left: 1px solid rgba(215, 215, 215, 0.5);
+  height: 270px;
+  position:absolute;
+  left: 50%;
+  z-index: 10;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.options .lists{
+  /* background-color: red; */
+  height: 300px;
+  width: 250px;
+  margin: 0;
+}
+
+.lists-title{
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.list-items{
+  font-size: 12px;
+  color: gray;
+  margin-left: 15px;
+  line-height: 10px;
+}
+
+.list-items p:hover{
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.options .accounts{
+  color: black;
+  position: absolute;
+  left: 50%;
+  width: 250px;
+  height: 300px;
+  /* background-color: blue; */
+}
+
+.account:hover .tooltip{
+  display: block;
+  pointer-events: visible;
 }
 
 .hello{
@@ -291,6 +363,7 @@ line{
   color: white;
   padding: 8px 10px;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .return{
@@ -317,6 +390,7 @@ line{
   font-size: 15px;
   padding: 10px 8px;
   border: 1px solid white;
+  cursor: pointer;
 }
 
 .fa-cart-shopping{
