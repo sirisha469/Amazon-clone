@@ -254,14 +254,14 @@
   margin-top: 20px;
 } 
 
-.exciting-deals span{
+.exciting-deals .see-all{
   font-size: 14px;
   font-weight: 0;
   color: #007185;
   margin-left: 10px;
 }
 
-.exciting-deals span:hover{
+.exciting-deals .see-all:hover{
   color: orange;
   cursor: pointer;
 }
@@ -283,7 +283,7 @@
 .items{
   width: 230px;
   height: 200px;
-  background-color: rgb(222, 222, 222);
+  background-color: rgba(15,17,17,.03);
 }
 
 .item-book img{
@@ -318,7 +318,24 @@
 }
 
 .discount{
-  background-color: maroon;
+  /* background-color: black; */
+  display: flex;
+  align-items: center;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  /* padding: 5px 5px; */
+}
+
+.discount .off{
+  background-color: #CC0C39;
+  color: white;
+  padding: 4px 6px;
+  border-radius: 2px;
+}
+
+.discount .deal{
+  color: #CC0C39;
+  margin-left: 10px;
 }
