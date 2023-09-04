@@ -269,6 +269,7 @@
 .exciting-deals .title{
   font-size: 21px;
   font-weight: bold;
+  position: relative;
 }
 
 .exciting-deals .deals{
@@ -338,4 +339,63 @@
 .discount .deal{
   color: #CC0C39;
   margin-left: 10px;
+}
+
+.price{
+  margin-top: 5px;
+}
+
+.price .doller{
+  font-size: 11px;
+  color: #0F1111;
+  position: relative;
+  top: -0.3em;
+}
+
+.price .amount-in-dollers{
+  font-size: 17px;
+}
+
+.price .list-price{
+  color: #565959;
+  font-size: 12px;
+}
+
+.price .original-price{
+  color: #565959;
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.items .item-description{
+  font-size: 13px;
+  color: #0F1111;
+  margin-top: 10px;
+}
+
+.exciting-deals .left-arrow{
+  position: absolute;
+  height: 200px;
+  width: 60px;
+  border: 3px solid #007185;
+  border-radius: 5px;
+  visibility: hidden;
+  cursor: pointer;
+}
+
+.exciting-deals .right-arrow{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 200px;
+  width: 60px;
+  border: 3px solid #007185;
+  border-radius: 5px;
+  visibility: hidden;
+  cursor: pointer;
+} 
+
+.exciting-deals button{
+  background: transparent;
+  border: none;
 }
