@@ -9,7 +9,7 @@
   object-fit: cover;
 }
 
-.fa-less-than{
+.ad-left-arrow .fa-less-than{
   position: absolute;
   top: 100px;
   left: 20px;
@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 
-.fa-greater-than{
+.ad-right-arrow .fa-greater-than{
   position: absolute;
   top: 100px;
   right: 20px;
@@ -34,7 +34,7 @@
   border: none;
 }
 
-.advert .left-arrow{
+.advert .ad-left-arrow{
   position: absolute;
   height: 200px;
   width: 60px;
@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 
-.advert .right-arrow{
+.advert .ad-right-arrow{
   position: absolute;
   top: 0;
   right: 0;
@@ -248,10 +248,11 @@
 
 .exciting-deals{
   width: 1200px;
-  height: 370px;
+  height: 350px;
   border: 1px solid red;
   margin-left: 30px;
   margin-top: 20px;
+  position: relative;
 } 
 
 .exciting-deals .see-all{
@@ -275,16 +276,17 @@
 .exciting-deals .deals{
   /* width: 1173px; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* background-color: blue; */
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .items{
   width: 230px;
   height: 200px;
   background-color: rgba(15,17,17,.03);
+  margin-right: 10px;
 }
 
 .item-book img{
@@ -313,6 +315,12 @@
 }
 
 .item-adobe-photoshop img{
+  height: 183px;
+  width: 145px;
+  margin: 8px 47px;
+}
+
+.item-smart-sensor img{
   height: 183px;
   width: 145px;
   margin: 8px 47px;
@@ -373,8 +381,9 @@
   margin-top: 10px;
 }
 
-.exciting-deals .left-arrow{
+/* .exciting-deals .left-arrow{
   position: absolute;
+  bottom:70px;
   height: 200px;
   width: 60px;
   border: 3px solid #007185;
@@ -385,9 +394,9 @@
 
 .exciting-deals .right-arrow{
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
-  height: 200px;
+  height: 500px;
   width: 60px;
   border: 3px solid #007185;
   border-radius: 5px;
@@ -398,4 +407,21 @@
 .exciting-deals button{
   background: transparent;
   border: none;
+} */
+
+
+.left-arrow .fa-less-than{
+  position: absolute;
+  top: 160px;
+  left: 10px;
+}
+
+.right-arrow .fa-greater-than{
+  position: absolute;
+  top: 160px;
+  right: 15px;
+}
+
+.visibility{
+  visibility: hidden;
 }

@@ -12,7 +12,7 @@ let count = 0;
 
 img.src = imgArray[0];
 
-const rightButton = document.querySelector(".right-arrow");
+const rightButton = document.querySelector(".ad-right-arrow");
 
 rightButton.addEventListener("click", () => {
   count = count + 1;
@@ -24,7 +24,7 @@ rightButton.addEventListener("click", () => {
   img.src = imgArray[count];
 });
 
-const leftButton = document.querySelector(".left-arrow");
+const leftButton = document.querySelector(".ad-left-arrow");
 
 leftButton.addEventListener("click", () => {
   count = count - 1;
